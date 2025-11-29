@@ -1,6 +1,5 @@
 -- Create movies table
--- Movies > Directors
-
+-- Movies references the table  Directors via its ID
 CREATE TABLE movies (
 	movie_id SERIAL PRIMARY KEY,
 	movie_name VARCHAR(100) NOT NULL,
